@@ -30,9 +30,9 @@ public struct SpotifyAlbum: SpotifySearchItem, SpotifyLibraryItem, SpotifyTrackC
     public static let type: SpotifyItemType = .album
     
     var images  = [Image]()
-    var artists = [SpotifyArtist]()
+    var artists = [SpotifyArtistLink]()
     
-    public var artist: SpotifyArtist {
+    public var artist: SpotifyArtistLink {
         return artists.first!
     }
     

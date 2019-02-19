@@ -18,9 +18,9 @@ public struct SpotifyTrack: SpotifySearchItem, SpotifyLibraryItem {
     
     public static let type: SpotifyItemType = .track
     
-    var artists = [SpotifyArtist]()
+    var artists = [SpotifyArtistLink]()
     
-    public var artist: SpotifyArtist {
+    public var artist: SpotifyArtistLink {
         return artists.first!
     }
 }

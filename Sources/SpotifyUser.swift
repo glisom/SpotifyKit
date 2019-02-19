@@ -1,6 +1,6 @@
 //
 //  SpotifyUser.swift
-//  Pods-micro
+//  SpotifyKit
 //
 //  Created by Isom,Grant on 2/19/19.
 //
